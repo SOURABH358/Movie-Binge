@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 0.4rem;
+    transition: all 0.5s ease-in-out;
+    padding: 0.25rem 1rem;
+}
+a:hover{
+    background: white;
+    color: darkslategray;
+}
+
+.navbar{
+    min-width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    padding: 1.5rem 1rem;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 3rem;
+    top: 2rem;
+    font-size: 2rem;
+}
+.title{
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    color:azure
+
+}
+#account{
+    position: absolute;
+    right: 2rem; 
+    top: 2.5rem;
+
+}
+.account .profile{
+    display: none;
+}
+.user .link{
+    display: none;
+}
+.user .profile{
+    display: block;
+}
+
+.main{
+    width: 90%;
+    margin: 4rem auto;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+}
+.card{
+    min-height: 50rem;
+    background-color: white;
+    border: 1px solid darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    box-shadow: 4px 4px 16px 0 rgba(0,0,0,0.1);
+}
+
+.card-hero{
+    width: 100%;
+    height: 70%;
+}
+.card-hero img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    font-size: 2rem;
+
+}
+.card-info{
+    width: 100%;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+.description{
+    color: grey;
+    margin-bottom: 1rem;
+}
+.more{
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 10px;
+}
+.movie-container{
+    display: flex;
+    height: 45rem;
+    padding: 2rem;
+    border: 2px solid darkslategray;
+    gap: 4rem;
+}
+.movie-poster{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.movie-poster div{
+    width: 100%;
+    height: 100%;
+}
+.movie-poster img{
+    height: 100%;
+    width: 100%;
+}
+.slider{
+    position: absolute;
+    top: 16rem;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+.left-slider{
+    left: 1rem;
+}
+.right-slider{
+    right: 1rem;
+}
+.movie-info{
+    width: 50%;
+}
+.movie-info{
+    font-size: 1.25rem;
+
+}
+.movie-title{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.movie-genre{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.movie-genre div{
+    padding: 0.5rem 1rem;
+    border: 1px solid darkslategray;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+.movie-about{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-rating{
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+.movie-release{
+    margin-bottom: 1rem;
+}
+.movie-directors{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.subtitle{
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.movie-cast{
+    margin-top: 2rem;
+}
+.cast-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 4rem;
+    margin-top: 1rem;
+}
+.actors{
+    padding: 1rem;
+    border: 1px solid darkslategray;
+}
+.actors img{
+    width: 100%;
+}
+.actors p{
+    text-align: center;
+    font-size: 1.25rem;
+}

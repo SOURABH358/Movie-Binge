@@ -1,0 +1,378 @@
+[
+    {
+        "title": "DC League of Super-Pets",
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "Directors": "Jared Stern, Sam J. Levine",
+        "Writers": "Jared Stern, John Wittington",
+        "cast": [
+            {
+                "name": "Dwayne Johnson",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Kevin Hart",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "John Kransinski",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Kate Mckinnon",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Keanu Reeves",
+                "image": "images/movie-1-cast-5"
+            }
+        ],
+        "runtime": "1hr 45min",
+        "ratings": "7.5",
+        "release date": "29 Jul, 2022",
+        "Description": "When the Justice League are captured by Lex Luthor, Superman's dog, Krypto, forms a team of shelter-pets who were given super-powers: A hound named Ace, who becomes super-strong, a pig named PB, who can grow to giant-size, a turtle named Merton, who becomes super-fast, and a squirrel named Chip, who gains electric-powers."
+    },
+    {
+        "title": "Thor: Love and Thunder",
+        "genre": [
+            "Comedy",
+            "Action",
+            "Adventure"
+        ],
+        "Directors": "Taika Waititi",
+        "Writers": "Taika Waititi, Jennifer Kaytin Robinson, Stan Lee",
+        "cast": [
+            {
+                "name": "Chris Hemsworth",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Natalie Portman",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Chrishtian Bale",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Tessa Thompson",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Taika Waititi",
+                "image": "images/movie-1-cast-5"
+            }
+        ],
+        "runtime": "1hr 58min",
+        "ratings": "6.5",
+        "release date": "8 Jul, 2022",
+        "Description": "Thor's retirement is interrupted by a galactic killer known as Gorr the God Butcher, who seeks the extinction of the gods. To combat the threat, Thor enlists the help of King Valkyrie, Korg and ex-girlfriend Jane Foster, who - to Thor's surprise - inexplicably wields his magical hammer, Mjolnir, as the Mighty Thor. Together, they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher's vengeance and stop him before it's too late."
+    },
+    {
+        "title": "Eternals",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "Directors": "Chloe Zhao",
+        "Writers": "Chloe Zhao, Patrick Burleigh, Ryan Firpo",
+        "cast": [
+            {
+                "name": "Gemma Chan",
+                "image": "images/movie-3-cast-1"
+            },
+            {
+                "name": "Richard Madden",
+                "image": "images/movie-3-cast-2"
+            },
+            {
+                "name": "Angelina Jolie",
+                "image": "images/movie-3-cast-3"
+            },
+            {
+                "name": "Salma Hayek",
+                "image": "images/movie-3-cast-4"
+            },
+            {
+                "name": "Kit Harington",
+                "image": "images/movie-3-cast-5"
+            },
+            {
+                "name": "Kumail Nanjiani",
+                "image": "images/movie-3-cast-6"
+            },
+            {
+                "name": "Lia McHugh",
+                "image": "images/movie-3-cast-7"
+            }
+        ],
+        "runtime": "2hr 36min",
+        "ratings": "6.3",
+        "release date": "5 Nov, 2021",
+        "Description": "Following the events of Avengers: Endgame (2019), an unexpected tragedy forces the Eternals, ancient aliens who have been living on Earth in secret for thousands of years, out of the shadows to reunite against mankind's most ancient enemy, the Deviants."
+   
+    },
+    {
+        "title": "Top Gun : Maverick",
+        "genre": [
+            "Action",
+            "Drama"
+        ],
+        "Directors": "Joseph Kosinski",
+        "Writers": "Jim Cash, Jack Epps Jr, Peter Craig",
+        "cast": [
+            {
+                "name": "Tom Cruise",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Jennifer Connelly",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Miles Teller",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Val Kilmer",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "2hr 10min",
+        "ratings": "8.4",
+        "release date": "27 May 2022",
+        "Description": "Set 30 years after its predecessor, it follows Maverick's return to the United States Navy Strike Fighter Tactics Instructor program (also known as U.S. Navy-Fighter Weapons School - 'TOPGUN'), where he must confront his past as he trains a group of younger pilots, among them the son of Maverick's deceased best friend Lieutenant Nick 'Goose' Bradshaw, USN."
+   
+    },
+    {
+        "title": "The Batman",
+        "genre": [
+            "Action",
+            "Crime", 
+            "Drama"
+        ],
+        "Directors": "Matt Reeves",
+        "Writers": "Matt Reeves, Peter Craig, Bob Kane",
+        "cast": [
+            {
+                "name": "Robert Pattinson",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Zoe Kravitz",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Jeffrey Wright",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Paul Dano",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Andy Serkis",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "2hr 56min",
+        "ratings": "7.9",
+        "release date": "24 March 2022",
+        "Description": "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues. As the evidence begins to lead closer to home and the scale of the perpetrator's plans become clear, he must forge new relationships, unmask the culprit and bring justice to the abuse of power and corruption that has long plagued the metropolis."
+   
+   
+    },
+    {
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy",
+            "Horror",
+            "Sci-Fi"
+        ],
+        "Directors": "Sam Raimi",
+        "Writers": "Michael Waldron, Stan Lee, Steve Ditko",
+        "cast": [
+            {
+                "name": "Benedict Cumberbatch",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Elizabeth Olsen",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Xochitl Gomez",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Benedict Wong",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Chiwetel Ejiofor",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "2hr 06min",
+        "ratings": "7.0",
+        "release date": "6 May 2022",
+        "Description": "Following the events of Spider-Man No Way Home, Doctor Strange unwittingly casts a forbidden spell that accidentally opens up the multiverse. With help from Wong and Scarlet Witch, Strange confronts various versions of himself as well as teaming up with the young America Chavez while traveling through various realities and working to restore reality as he knows it. Along the way, Strange and his allies realize they must take on a powerful new adversary who seeks to take over the multiverse."
+   
+   
+    },
+    {
+        "title": "Pinocchio",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+        ],
+        "Directors": "Robert Zemeckis",
+        "Writers": "Robert Zemeckis, Chris Weitz, Carlo Collodi",
+        "cast": [
+            {
+                "name": "Joseph Gordon-Levitt",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Tom Hanks",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Benjamin Evan Ainsworth",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Angus Wright",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Cynthia Erivo",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "1hr 45min",
+        "ratings": "5.1",
+        "release date": "9 September 2022",
+        "Description": "A puppet is brought to life by a fairy, who assigns him to lead a virtuous life in order to become a real boy."
+   
+   
+    },
+    {
+        "title": "Me Time",
+        "genre": [
+            "Comedy"
+        ],
+        "Directors": "John Hamburg",
+        "Writers": "John Hamburg",
+        "cast": [
+            {
+                "name": "Kevin Hart",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Mark Wahlberg",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Regina Hall",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Che Tafari",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Amentii Sledge",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "1hr 41min",
+        "ratings": "5.0",
+        "release date": "26 Aug, 2022",
+        "Description": "Follows a dad who finds time for himself for the first time in years while his wife and kids are away. He reconnects with a friend for a wild weekend."   
+   
+    },
+    {
+        "title": "Ambulance",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "Directors": "Micheal Bay",
+        "Writers": "Chris Fedak, Laurits Munch-Petersen, Lars Andreas Pedersen",
+        "cast": [
+            {
+                "name": "Jake Gyllenhaal",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Yahya Abdul-Mateen II",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "Eiza Gonzalez",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Garret Dillahunt",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Keir O'Donnell",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "2hr 16min",
+        "ratings": "6.1",
+        "release date": "8 Apr, 2022",
+        "Description": "Decorated veteran Will Sharp, desperate for money to cover his wife's medical bills, asks for help from his adoptive brother Danny. A charismatic career criminal, Danny instead offers him a score: the biggest bank heist in Los Angeles history: $32 million."
+   
+    },
+    {
+        "title": "Moonfall",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "Directors": "Roland Emmerich",
+        "Writers": "Roland Emmerich, Harald Kloser, Spenser Cohen",
+        "cast": [
+            {
+                "name": "Halle Berry",
+                "image": "images/movie-1-cast-1"
+            },
+            {
+                "name": "Patrick Wilson",
+                "image": "images/movie-1-cast-2"
+            },
+            {
+                "name": "John Bradley",
+                "image": "images/movie-1-cast-3"
+            },
+            {
+                "name": "Charlie Plummer",
+                "image": "images/movie-1-cast-4"
+            },
+            {
+                "name": "Wenwen Yu",
+                "image": "images/movie-1-cast-4"
+            }
+        ],
+        "runtime": "2hr 10min",
+        "ratings": "5.1",
+        "release date": "4 Feb, 2022",
+        "Description": "In Moonfall, a mysterious force knocks the Moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it. With mere weeks before impact and the world on the brink of annihilation, NASA executive and former astronaut Jo Fowler is convinced she has the key to saving us all - but only one astronaut from her past, Brian Harper and a conspiracy theorist K.C. Houseman believe her. These unlikely heroes will mount an impossible last-ditch mission into space, leaving behind everyone they love, only to find that they just might have prepared for the wrong mission."
+   
+   
+    }
+]
