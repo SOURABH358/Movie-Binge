@@ -32,9 +32,9 @@
         ],
         "poster": "/images/movie-1-poster.jpg",
         "posterList": [
+            "./../images/movie-1-poster.jpg",
             "./../images/movie-1-poster-1.jpg",
-            "./../images/movie-1-poster-2.jpg",
-            "./../images/movie-1-poster-3.jpg"
+            "./../images/movie-1-poster-2.jpg"
         ],
         "runtime": "1hr 45min",
         "ratings": "7.5",
@@ -76,9 +76,9 @@
         ],
         "poster": "./images/movie-2-poster.jpg",
         "posterList": [
+            "./../images/movie-2-poster.jpg",
             "./../images/movie-2-poster-1.jpg",
-            "./../images/movie-2-poster-2.jpg",
-            "./../images/movie-2-poster-3.jpg"
+            "./../images/movie-2-poster-2.jpg"
         ],
         "runtime": "1hr 58min",
         "ratings": "6.5",
@@ -127,9 +127,9 @@
         ],
         "poster": "./images/movie-3-poster.jpg",
         "posterList": [
+            "./../images/movie-3-poster.jpg",
             "./../images/movie-3-poster-1.jpg",
-            "./../images/movie-3-poster-2.jpg",
-            "./../images/movie-3-poster-3.jpg"
+            "./../images/movie-3-poster-2.jpg"
         ],
         "runtime": "2hr 36min",
         "ratings": "6.3",
@@ -149,26 +149,26 @@
         "cast": [
             {
                 "name": "Tom Cruise",
-                "image": "./../images/movie-1-cast-1.jfif"
+                "image": "./../images/movie-4-cast-1.jfif"
             },
             {
                 "name": "Jennifer Connelly",
-                "image": "./../images/movie-1-cast-2.jfif"
+                "image": "./../images/movie-4-cast-2.jfif"
             },
             {
                 "name": "Miles Teller",
-                "image": "./../images/movie-1-cast-3.jfif"
+                "image": "./../images/movie-4-cast-3.jfif"
             },
             {
                 "name": "Val Kilmer",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-4-cast-4.jfif"
             }
         ],
-        "poster": "./images/movie-1-poster.jpg",
+        "poster": "./images/movie-4-poster.jpg",
         "posterList": [
-            "./../images/movie-3-poster-1.jpg",
-            "./../images/movie-3-poster-2.jpg",
-            "./../images/movie-3-poster-3.jpg"
+            "./../images/movie-4-poster.jpg",
+            "./../images/movie-4-poster-1.jpg",
+            "./../images/movie-4-poster-2.jpg"
         ],
         "runtime": "2hr 10min",
         "ratings": "8.4",
@@ -189,30 +189,30 @@
         "cast": [
             {
                 "name": "Robert Pattinson",
-                "image": "./../images/movie-1-cast-1.jfif"
+                "image": "./../images/movie-5-cast-1.jfif"
             },
             {
                 "name": "Zoe Kravitz",
-                "image": "./../images/movie-1-cast-2.jfif"
+                "image": "./../images/movie-5-cast-2.jfif"
             },
             {
                 "name": "Jeffrey Wright",
-                "image": "./../images/movie-1-cast-3.jfif"
+                "image": "./../images/movie-5-cast-3.jfif"
             },
             {
                 "name": "Paul Dano",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-5-cast-4.jfif"
             },
             {
                 "name": "Andy Serkis",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-5-cast-5.jfif"
             }
         ],
-        "poster": "./images/movie-1-poster.jpg",
+        "poster": "./images/movie-5-poster.jpg",
         "posterList": [
-            "./../images/movie-1-poster-1.jpg",
-            "./../images/movie-1-poster-2.jpg",
-            "./../images/movie-1-poster-3.jpg"
+            "./../images/movie-5-poster.jpg",
+            "./../images/movie-5-poster-1.jpg",
+            "./../images/movie-5-poster-2.jpg"
         ],
         "runtime": "2hr 56min",
         "ratings": "7.9",
@@ -235,30 +235,30 @@
         "cast": [
             {
                 "name": "Benedict Cumberbatch",
-                "image": "./../images/movie-1-cast-1.jfif"
+                "image": "./../images/movie-6-cast-1.jfif"
             },
             {
                 "name": "Elizabeth Olsen",
-                "image": "./../images/movie-1-cast-2.jfif"
+                "image": "./../images/movie-6-cast-2.jfif"
             },
             {
                 "name": "Xochitl Gomez",
-                "image": "./../images/movie-1-cast-3.jfif"
+                "image": "./../images/movie-6-cast-3.jfif"
             },
             {
                 "name": "Benedict Wong",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-6-cast-4.jfif"
             },
             {
-                "name": "Chiwetel Ejiofor",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "name": "Rachel McAdams",
+                "image": "./../images/movie-6-cast-5.jfif"
             }
         ],
-        "poster": "./images/movie-1-poster.jpg",
+        "poster": "./images/movie-6-poster.jpg",
         "posterList": [
-            "./../images/movie-1-poster-1.jpg",
-            "./../images/movie-1-poster-2.jpg",
-            "./../images/movie-1-poster-3.jpg"
+            "./../images/movie-6-poster.jpg",
+            "./../images/movie-6-poster-1.jpg",
+            "./../images/movie-6-poster-2.jpg"
         ],
         "runtime": "2hr 06min",
         "ratings": "7.0",
@@ -279,30 +279,29 @@
         "cast": [
             {
                 "name": "Joseph Gordon-Levitt",
-                "image": "./../images/movie-1-cast-1.jfif"
+                "image": "./../images/movie-7-cast-1.jfif"
             },
             {
                 "name": "Tom Hanks",
-                "image": "./../images/movie-1-cast-2.jfif"
+                "image": "./../images/movie-7-cast-2.jfif"
             },
             {
                 "name": "Benjamin Evan Ainsworth",
-                "image": "./../images/movie-1-cast-3.jfif"
+                "image": "./../images/movie-7-cast-3.jfif"
             },
             {
                 "name": "Angus Wright",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-7-cast-4.jfif"
             },
             {
                 "name": "Cynthia Erivo",
-                "image": "./../images/movie-1-cast-4.jfif"
+                "image": "./../images/movie-7-cast-4.jfif"
             }
         ],
-        "poster": "./images/movie-1-poster.jpg",
+        "poster": "./images/movie-7-poster.jpg",
         "posterList": [
-            "./../images/movie-1-poster-1.jpg",
-            "./../images/movie-1-poster-2.jpg",
-            "./../images/movie-1-poster-3.jpg"
+            "./../images/movie-7-poster.jpg",
+            "./../images/movie-7-poster-1.jpg"
         ],
         "runtime": "1hr 45min",
         "ratings": "5.1",

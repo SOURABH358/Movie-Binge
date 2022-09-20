@@ -30,7 +30,7 @@ exports.getMovie = async function(req,res){
         res
         .status(200)
         .render('movie',{
-            title: `MovieBinge`,
+            title: `MovieBinge | ${req.params.slug}`,
             movie: movie
         })
     }catch(err){

@@ -212,6 +212,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
     margin-top: 1rem;
 }
 .actors{
