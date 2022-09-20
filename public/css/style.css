@@ -111,6 +111,11 @@ a:hover{
     background-color: darkslategray;
     border: none;
     border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.more:hover{
+    border: 2px solid darkslategray;
 }
 .movie-container{
     display: flex;
@@ -173,6 +178,11 @@ a:hover{
     border: 1px solid darkslategray;
     border-radius: 1rem;
     margin-right: 2rem;
+    transition: all 0.5s ease-in-out
+}
+.movie-genre div:hover{
+    background: darkslategray;
+    color: white;
 }
 .movie-about{
     display: flex;

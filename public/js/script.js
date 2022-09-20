@@ -2,6 +2,7 @@ const sliderRight = document.querySelector('.right-slider')
 const sliderLeft = document.querySelector('.left-slider')
 let poster = document.querySelector('.movie-poster div')
 
+
 const len = poster.children.length
 
 let i = 0;

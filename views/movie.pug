@@ -1,0 +1,112 @@
+extends layout
+
+block content
+    main.main
+        .movie-container
+            .movie-poster
+                div
+                    each poster in movie.posterList
+                        img(src= `${poster}` alt = "movie-poster")
+                p.slider.left-slider ◀
+                p.slider.right-slider ▶
+            .movie-info
+                p.movie-title #{movie.title}
+                .movie-genre
+                    each genre in movie.genre
+                        div #{genre}
+                .movie-about
+                    p.movie-rating= `Imdb rating - ${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
+                    p.movie-duration 🧭 #{movie.runtime}
+                p.movie-description Release Date - #{movie["release date"]}
+                div 
+                    p.subtitle Directors
+                    p #{movie.directors}
+                div
+                    p.subtitle Writers
+                    p #{movie.Writers}
+                div
+                    p.subtitle Description
+                    p #{movie.Description}
+            
+        .movie-cast
+            h1 Movie Cast
+            .cast-container
+                each cast in movie.cast
+                    .actors
+                        div 
+                            img(src= `${cast.image}` alt = "movie-cast")
+                        p #{cast.name}
+
+
+    //- <main class="main">
+    //-     <div class="movie-container">
+    //-         <div class="movie-poster">
+    //-             <div>
+    //-                 <img src="./../images/movie-1-poster-1.jpg" alt="movie-poster">
+    //-                 <img src="./../images/movie-1-poster-2.jpg" alt="movie-poster">
+    //-                 <img src="./../images/movie-1-poster-3.jpg" alt="movie-poster">
+    //-             </div>
+
+    //-             <p class="slider left-slider">◀</p>
+    //-             <p class="slider right-slider">▶</p>
+    //-         </div>
+
+    //-         <div class="movie-info">
+    //-             <p class="movie-title">DC League of Super Pets</p>
+    //-             <div class="movie-genre">
+    //-                 <div>Adventure</div>
+    //-                 <div>Action</div>
+    //-                 <div>Adventure</div>
+    //-             </div>
+    //-             <div class="movie-about">
+    //-                 <p class="movie-rating">Imdb Rating - 7.5 ⭐⭐⭐⭐</p>
+    //-                 <p class="movie-duration">🧭 1hr 45min</p>
+    //-             </div>
+    //-             <p class="movie-description">Release Date - 29 July 2022</p>
+    //-             <div>
+    //-                 <p class="subtitle">Directors</p>
+    //-                 <p>Jared Stern, Sam J. Levine</p>
+    //-             </div>
+    //-             <div>
+    //-                 <p class="subtitle">Writers</p>
+    //-                 <p>Jared Stern, John Wittington</p>
+    //-             </div>
+    //-             <div>
+    //-                 <p class="subtitle">Synopsis</p>
+    //-                 <p class="movie-description">When the Justice League are captured by Lex Luthor, Superman's dog,
+    //-                     Krypto, forms a team of shelter-pets
+    //-                     who were given super-powers: A hound named Ace, who becomes super-strong, a pig named PB, who
+    //-                     can grow
+    //-                     to giant-size, a turtle named Merton, who becomes super-fast, and a squirrel named Chip, who
+    //-                     gains
+    //-                     electric-powers.</p>
+    //-             </div>
+    //-         </div>
+    //-     </div>
+    //-     <div class="movie-cast">
+    //-         <h1>Movie Cast</h1>
+    //-         <div class="cast-container">
+    //-             <div class="actors">
+    //-                 <div><img src="./../images/movie-1-cast-1.jfif" alt="movie-cast"></div>
+    //-                 <p>Dwayne Johnson</p>
+    //-             </div>
+    //-             <div class="actors">
+    //-                 <div><img src="./../images/movie-1-cast-2.jfif" alt="movie-cast"></div>
+    //-                 <p>Kevin Hart</p>
+    //-             </div>
+    //-             <div class="actors">
+    //-                 <div><img src="./../images/movie-1-cast-3.jfif" alt="movie-cast"></div>
+    //-                 <p>John Kransinski</p>
+    //-             </div>
+    //-             <div class="actors">
+    //-                 <div><img src="./../images/movie-1-cast-4.jfif" alt="movie-cast"></div>
+    //-                 <p>Kate Mckinnon</p>
+    //-             </div>
+    //-             <div class="actors">
+    //-                 <div><img src="./../images/movie-1-cast-5.jfif" alt="movie-cast"></div>
+    //-                 <p>Keanu Reeves</p>
+    //-             </div>
+
+    //-         </div>
+    //-     </div>
+    //- </main>
