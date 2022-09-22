@@ -10,7 +10,7 @@ const DB = process.env.DB.replace('<PASSWORD>',process.env.DB_PASSWORD)
 
 mongoose.connect(DB)
 .then(()=>{
-    console.log('Database Connection is successful')
+    // console.log('Database Connection is successful')
 }).catch((err)=>{
     console.log(err)
 })

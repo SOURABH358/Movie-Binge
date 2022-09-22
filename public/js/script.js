@@ -6,7 +6,7 @@ let poster = document.querySelector('.movie-poster div')
 const len = poster.children.length
 
 let i = 0;
-console.log(len)
+// console.log(len)
 sliderLeft.addEventListener('click',()=>{
     if(i>0){
         Array.from(poster.children).map(ele=>{
@@ -16,7 +16,7 @@ sliderLeft.addEventListener('click',()=>{
         poster.children[i].className = ''
 
     }    
-    console.log(poster.children[i])
+    // console.log(poster.children[i])
 })
 sliderRight.addEventListener('click',()=>{
     if(i<len-1){
@@ -26,7 +26,7 @@ sliderRight.addEventListener('click',()=>{
         i+=1
         poster.children[i].className = 'show'
     }    
-    console.log(poster.children[i])
+    // console.log(poster.children[i])
 
 
 })

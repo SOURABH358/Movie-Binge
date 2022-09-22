@@ -23,7 +23,7 @@ exports.getAllMovies = async function(req,res){
 
 exports.getMovie = async function(req,res){
     try{
-        console.log(req.params)
+        // console.log(req.params)
         const movie = await movieModels.findOne({
             slug: req.params.slug
         })
