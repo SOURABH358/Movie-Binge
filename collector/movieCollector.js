@@ -8,7 +8,7 @@ exports.getAllMovies = async function(req,res){
         res
         .status(200)
         .render('home',{
-            title: 'MovieBinge | Binge movies',
+            title: 'MovieBinge | Binge watch movies',
             movies: movies
         })
     }catch(err){

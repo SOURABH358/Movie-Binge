@@ -22,6 +22,9 @@ const movieSchema = new mongoose.Schema({
     Description: {
         type: String
     },
+    watch: {
+        type: String
+    },
     directors: {
         type: String
     },
