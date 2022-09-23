@@ -22,4 +22,6 @@
 
  
 ### Author
-Sourabh Yadav ❤
+GitHub - [@Sourabh358](https://github.com/SOURABH358)  
+Frontend Mentor - [@Sourabh358](https://www.frontendmentor.io/profile/sourabh358)
+❤ Sourabh Yadav
