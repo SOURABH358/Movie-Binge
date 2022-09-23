@@ -3,8 +3,13 @@
 ## links
  - Checkout live working [site](https://moviebingeapp.herokuapp.com/)
 ## Screenshot
-![](./images/image-1.jpg)
-![](./images/image-2.jpg)
+<p align = "center">
+  <img src = "./image/image-1.jpg">
+</p>
+
+<p align = "center">
+  <img src = "./image/image-2.jpg">
+</p>
 ## Tech stack used
 - Nodejs
 - expressjs
