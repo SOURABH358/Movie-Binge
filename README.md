@@ -1,5 +1,5 @@
-# Movie-Binge
-
+# Movie-Binge  
+It is a movies recommendation app. Where you can get info about different latest released movies across various platforms. Select your favourite movies and binge watch them.
 ## links
  - Checkout live working [site](https://moviebingeapp.herokuapp.com/)  
 ## Tech stack used  
