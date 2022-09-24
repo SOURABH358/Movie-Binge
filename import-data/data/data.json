@@ -210,7 +210,8 @@
                 "name": "Andy Serkis",
                 "image": "./../images/cast/movie-5-cast-5.jfif"
             }
-        ],     "poster": "./images/poster/movie-5-poster.jpg",     "posterList": [
+        ],     "poster": "./images/poster/movie-5-poster.jpg",     
+        "posterList": [
             "./../images/poster/movie-5-poster.jpg",
             "./../images/poster/movie-5-poster-1.jpg",
             "./../images/poster/movie-5-poster-2.jpg"
@@ -424,7 +425,7 @@
             },
             {
                 "name": "Charlie Plummer",
-                "image": "./../images/mast/movie-10-cast-4.jfif"
+                "image": "./../images/cast/movie-10-cast-4.jfif"
             },
             {
                 "name": "Kelly Yu Wenwen",
