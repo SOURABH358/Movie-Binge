@@ -3,7 +3,7 @@ extends layout
 block content 
 
     main.main
-        p.subtitle 
+        p.sub-title 
             small Get Latest movies recommendations across different platforms and binge watch them.
 
         .card-container
@@ -11,12 +11,11 @@ block content
                 .card
                     .card-hero
                         img(src=  `${movie.poster}` alt = "movie-poster" )
-                    .card-float
-                        .card-title= movie.title
-                        .card-info
-                            .rating= `${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
-                            .duration #{movie.runtime}
-                        .description= movie.Description.slice(0,90) + '....'
+                    .card-title= movie.title
+                    .card-info
+                        .rating= `${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
+                        .duration #{movie.runtime}
+                    .description= movie.Description.slice(0,90) + '....'
                         
                     a.more(href = `\movie\\${movie.slug}` class = "more") Know More
 

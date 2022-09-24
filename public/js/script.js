@@ -2,12 +2,12 @@ const sliderRight = document.querySelector('.right-slider')
 const sliderLeft = document.querySelector('.left-slider')
 const poster = document.querySelectorAll('.movie-poster div')
 const root = document.querySelector(':root')
+const cards = document.querySelectorAll('.card')
 
 document.addEventListener("DOMContentLoaded",()=>{
     poster[1].className = "show"
 
 })
-textFit(document.querySelector('.card-title'))
 const len = poster.length
 
 let i = 1;
