@@ -11,12 +11,13 @@ block content
                 .card
                     .card-hero
                         img(src=  `${movie.poster}` alt = "movie-poster" )
-                    .card-title
-                        DC #{movie.title}
-                    .card-info
-                        .rating= `${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
-                        .duration #{movie.runtime}
-                    .description= movie.Description.slice(0,90) + '....'
+                    .card-float
+                        .card-title= movie.title
+                        .card-info
+                            .rating= `${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
+                            .duration #{movie.runtime}
+                        .description= movie.Description.slice(0,90) + '....'
+                        
                     a.more(href = `\movie\\${movie.slug}` class = "more") Know More
 
 

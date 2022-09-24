@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     poster[1].className = "show"
 
 })
+textFit(document.querySelector('.card-title'))
 const len = poster.length
 
 let i = 1;
