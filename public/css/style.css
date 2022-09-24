@@ -274,14 +274,13 @@ a:hover{
 }
 .actors{
     padding: 1rem;
-    border: 2px solid darkslategray;
 }
 .actors img{
     width: 100%;
 }
 .actors p{
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 .watch{
     position: absolute;
