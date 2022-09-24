@@ -56,25 +56,26 @@
        "cast": [
             {
                 "name": "Chris Hemsworth",
-                "image": "./../images/cast/movie-1-cast-1.jfif"
+                "image": "./../images/cast/movie-2-cast-1.jfif"
             },
             {
                 "name": "Natalie Portman",
-                "image": "./../images/cast/movie-1-cast-2.jfif"
+                "image": "./../images/cast/movie-2-cast-2.jfif"
             },
             {
-                "name": "Chrishtian Bale",
-                "image": "./../images/cast/movie-1-cast-3.jfif"
+                "name": "Christian Bale",
+                "image": "./../images/cast/movie-2-cast-3.jfif"
             },
             {
                 "name": "Tessa Thompson",
-                "image": "./../images/cast/movie-1-cast-4.jfif"
+                "image": "./../images/cast/movie-2-cast-4.jfif"
             },
             {
                 "name": "Taika Waititi",
-                "image": "./../images/cast/movie-1-cast-5.jfif"
+                "image": "./../images/cast/movie-2-cast-5.jfif"
             }
-        ],     "poster": "./images/poster/movie-2-poster.jpg",     "posterList": [
+        ],     "poster": "./images/poster/movie-2-poster.jpg", 
+            "posterList": [
             "./../images/poster/movie-2-poster.jpg",
             "./../images/poster/movie-2-poster-1.jpg",
             "./../images/poster/movie-2-poster-2.jpg"
@@ -341,7 +342,8 @@
                 "name": "John Amos",
                 "image": "./../images/cast/movie-8-cast-5.jfif"
             }
-        ],     "poster": "./images/poster/movie-8-poster.jpg",     "posterList": [
+        ],     "poster": "./images/poster/movie-8-poster.jpg",     
+        "posterList": [
             "./../images/poster/movie-8-poster.jpg",
             "./../images/poster/movie-8-poster-1.jpg",
             "./../images/poster/movie-8-poster-2.jpg"

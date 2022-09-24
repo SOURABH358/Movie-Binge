@@ -123,46 +123,59 @@ a:hover{
 }
 .movie-container{
     display: flex;
-    height: 45rem;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
     padding: 2rem;
     border: 2px solid darkslategray;
     gap: 4rem;
 }
 .movie-poster{
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+    width: 100%;
+    height: 41rem;
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+.toRight{
+    transform: translateX(33%);
+}
+.toLeft{
+    transform: translateX(-33%);
+}
+.mid{
+    transform: translateX(0);
 }
 .hide{
-    display: none;
+    transform: scale(0.5);
+    opacity: 0.5;
 }
 .show{
     display: block;
 }
 .movie-poster div{
-    width: 100%;
-    height: 100%;
+    width: 33%;
+    height: 41rem;
+    transition: 0.5s ease-in-out;
 }
 .movie-poster img{
     height: 100%;
     width: 100%;
 }
+.sliders{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
 .slider{
-    position: absolute;
-    top: 16rem;
     font-size: 3rem;
     color: white;
     cursor: pointer;
+    color: black;
 }
-.left-slider{
-    left: 1rem;
-}
-.right-slider{
-    right: 1rem;
-}
+
 .movie-info{
-    width: 50%;
+    width: 100%;
     position:relative;
 }
 .movie-info{
@@ -173,9 +186,11 @@ a:hover{
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .movie-genre{
     display: flex;
+    justify-content: center;
     margin-bottom: 2rem;
 }
 .movie-genre div{

@@ -14,7 +14,7 @@ block content
                         .rating= `${movie.ratings}  ${'⭐'.repeat(Math.floor(movie.ratings/2))}`
                         .duration #{movie.runtime}
                     .description= movie.Description.slice(0,90) + '....'
-                    a.more(href = `\movie\\${movie.slug}` target = "_blank" class = "more") Know More
+                    a.more(href = `\movie\\${movie.slug}` class = "more") Know More
 
 
 

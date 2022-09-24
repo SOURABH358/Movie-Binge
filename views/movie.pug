@@ -4,9 +4,10 @@ block content
     main.main
         .movie-container
             .movie-poster
-                div
-                    each poster in movie.posterList
+                each poster,i in movie.posterList
+                    div.hide
                         img(src= `${poster}` alt = "movie-poster")
+            .sliders
                 p.slider.left-slider ◀
                 p.slider.right-slider ▶
             .movie-info
@@ -30,14 +31,14 @@ block content
                 div.watch
                     a(href= movie.watch target = "_blank") ▶ Watch Now
             
-        .movie-cast
-            h1 Movie Cast
-            .cast-container
-                each cast in movie.cast
-                    .actors
-                        div 
-                            img(src= `${cast.image}` alt = "movie-cast")
-                        p #{cast.name}
+            .movie-cast
+                h1 Movie Cast
+                .cast-container
+                    each cast in movie.cast
+                        .actors
+                            div 
+                                img(src= `${cast.image}` alt = "movie-cast")
+                            p #{cast.name}
 
 
     
