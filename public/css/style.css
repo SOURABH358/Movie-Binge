@@ -5,6 +5,10 @@
     font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
 }
+:root{
+    --i: 0;
+    
+}
 
 a{
     text-decoration: none;
@@ -64,12 +68,25 @@ a:hover{
 
 .main{
     width: 90%;
-    margin: 4rem auto;
+    margin: auto;
+}
+.subtitle{
+    text-align: center;
+    color: darkslategray;
+    margin-top: 1rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    opacity: 0.6;
+}
+.subtitle small{
+    font-family: sans-serif;
+    font-size: 18px;
+
 }
 .card-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 5rem;
+    grid-column-gap: 4rem;
     grid-row-gap: 5rem;
 }
 .card{
@@ -85,7 +102,7 @@ a:hover{
 
 .card-hero{
     width: 100%;
-    height: 70%;
+    height: 35rem;
 }
 .card-hero img{
     width: 100%;
@@ -130,21 +147,14 @@ a:hover{
     padding: 2rem;
     border: 2px solid darkslategray;
     gap: 4rem;
+    
 }
 .movie-poster{
     width: 100%;
     height: 41rem;
     display: flex;
     transition: 0.5s ease-in-out;
-}
-.toRight{
-    transform: translateX(33%);
-}
-.toLeft{
-    transform: translateX(-33%);
-}
-.mid{
-    transform: translateX(0);
+    transform: translateX(calc(var(--i)*1%))
 }
 .hide{
     transform: scale(0.5);
@@ -162,18 +172,27 @@ a:hover{
     height: 100%;
     width: 100%;
 }
-.sliders{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
+/* .sliders{
+    position:absolute;
+    top: 45rem;
+    width: 100%;
+    display: ;
+} */
 .slider{
+    position: absolute;
+    top: 32rem;
     font-size: 3rem;
     color: white;
     cursor: pointer;
     color: black;
+    z-index: 2;
 }
-
+.left-slider{
+    left: 8rem;
+}
+.right-slider{
+    right: 8rem;
+}
 .movie-info{
     width: 100%;
     position:relative;
@@ -232,8 +251,8 @@ a:hover{
 }
 .cast-container{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 4rem;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 3rem;
     grid-row-gap: 2rem;
     margin-top: 1rem;
 }

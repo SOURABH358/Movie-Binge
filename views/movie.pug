@@ -3,13 +3,13 @@ extends layout
 block content
     main.main
         .movie-container
+            p.slider.left-slider ◀
+            p.slider.right-slider ▶
             .movie-poster
                 each poster,i in movie.posterList
                     div.hide
                         img(src= `${poster}` alt = "movie-poster")
-            .sliders
-                p.slider.left-slider ◀
-                p.slider.right-slider ▶
+            
             .movie-info
                 p.movie-title #{movie.title}
                 .movie-genre
