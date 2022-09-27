@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 
-*, *::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --i: 0;
     --show-card: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
@@ -18,12 +21,13 @@ a{
     transition: all 0.5s ease-in-out;
     padding: 0.25rem 1rem;
 }
-a:hover{
+
+a:hover {
     background: white;
     color: darkslategray;
 }
 
-.navbar{
+.navbar {
     min-width: 5rem;
     display: flex;
     justify-content: center;
@@ -31,49 +35,51 @@ a:hover{
     background-color: darkslategray;
     padding: 1.5rem 1rem;
     position: relative;
-    box-shadow: 4px 4px 16px 0 rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.4);
 }
-.logo{
-    position: absolute;
-    left: 3rem;
-    top: 2rem;
-    font-size: 2rem;
-}
-.logo img{
-    width: 10rem;
+
+
+
+.logo img {
+    width: 12rem;
 
 }
-.title{
+
+.title {
+    display: none;
     font-weight: 400;
-    font-size: 3rem;
-    letter-spacing: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
     text-transform: uppercase;
-    color:azure
-
+    color: azure
 }
-#account{
+
+#account {
     position: absolute;
-    right: 2rem; 
+    right: 2rem;
     top: 2.5rem;
 
 }
-.account .profile{
+
+.account .profile {
     display: none;
 }
-.user .link{
+
+.user .link {
     display: none;
 }
-.user .profile{
+
+.user .profile {
     display: block;
 }
 
-.main{
+.main {
     width: 90%;
     margin: 2rem auto;
-    
+
 }
 
-.sub-title{
+.sub-title {
     text-align: center;
     color: darkslategray;
     margin-top: 1rem;
@@ -82,18 +88,21 @@ a:hover{
     opacity: 0.6;
 
 }
-.sub-title small{
+
+.sub-title small {
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 
 }
-.card-container{
+
+.card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-column-gap: 4rem;
     grid-row-gap: 5rem;
 }
-.card{
+
+.card {
     min-height: 50rem;
     background-color: white;
     border: 2px solid darkslategray;
@@ -101,29 +110,31 @@ a:hover{
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    box-shadow: 4px 4px 16px 0 rgba(0,0,0,0.1);
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.1);
     position: relative;
 }
 
-.card-hero{
+.card-hero {
     width: 100%;
     height: 70%;
 }
-.card-hero a{
+
+.card-hero a {
     width: 100%;
     height: 100%;
 }
-.card-hero img{
+
+.card-hero img {
     width: 100%;
     height: 100%;
 }
-.card-title{
+
+.card-title {
     font-size: 2em;
-
 }
 
 
-.card-info{
+.card-info {
     width: 100%;
     height: 2rem;
     margin: 1.5rem 0;
@@ -131,14 +142,17 @@ a:hover{
     justify-content: space-between;
     font-size: 1.25rem;
 }
-.description{
+
+.description {
     color: grey;
     margin-bottom: 1rem;
 }
-.display{
+
+.display {
     visibility: visible;
 }
-.more{
+
+.more {
     width: 100%;
     padding: 1rem 0;
     font-size: 1.5rem;
@@ -151,10 +165,12 @@ a:hover{
     transition: all 0.5s ease-in-out;
     margin-top: 2rem;
 }
-.more:hover{
+
+.more:hover {
     border: 2px solid darkslategray;
 }
-.movie-container{
+
+.movie-container {
     display: flex;
     flex-direction: column;
     max-width: 1500px;
@@ -164,38 +180,44 @@ a:hover{
     padding: 2rem;
     border: 2px solid darkslategray;
     gap: 4rem;
-    
+
 }
-.movie-poster{
+
+.movie-poster {
     width: 100%;
     height: 41rem;
     display: flex;
     transition: 0.5s ease-in-out;
     transform: translateX(calc(var(--i)*1%))
 }
-.hide{
+
+.hide {
     transform: scale(0.5);
     opacity: 0.5;
 }
-.show{
+
+.show {
     display: block;
 }
-.movie-poster div{
+
+.movie-poster div {
     width: 33%;
     height: 41rem;
     transition: 0.5s ease-in-out;
 }
-.movie-poster img{
+
+.movie-poster img {
     height: 100%;
     width: 100%;
 }
+
 /* .sliders{
     position:absolute;
     top: 45rem;
     width: 100%;
     display: ;
 } */
-.slider{
+.slider {
     position: absolute;
     top: 32rem;
     font-size: 3rem;
@@ -204,32 +226,39 @@ a:hover{
     color: black;
     z-index: 2;
 }
-.left-slider{
+
+.left-slider {
     left: 8rem;
 }
-.right-slider{
+
+.right-slider {
     right: 8rem;
 }
-.movie-info{
+
+.movie-info {
     width: 100%;
-    position:relative;
+    position: relative;
 }
-.movie-info{
+
+.movie-info {
     font-size: 1.25rem;
 
 }
-.movie-title{
+
+.movie-title {
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1rem;
     text-align: center;
 }
-.movie-genre{
+
+.movie-genre {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
-.movie-genre div{
+
+.movie-genre div {
     padding: 0.5rem 1rem;
     border: 1px solid darkslategray;
     border-radius: 1rem;
@@ -238,61 +267,122 @@ a:hover{
     background: darkslategray;
     color: white;
 }
-.movie-genre div:hover{
+
+.movie-genre div:hover {
     background-color: white;
     color: black;
 }
-.movie-about{
+
+.movie-about {
     display: flex;
     justify-content: space-between;
 }
-.movie-rating{
+
+.movie-rating {
     font-size: 1.25rem;
     letter-spacing: 0.2rem;
     margin-bottom: 0.5rem;
 }
-.movie-release{
+
+.movie-release {
     margin-bottom: 1rem;
 }
-.movie-directors{
+
+.movie-directors {
     font-size: 1.75rem;
     font-weight: 500;
 }
-.subtitle{
+
+.subtitle {
     margin-top: 1rem;
     font-size: 1.75rem;
     font-weight: 500;
 }
-.movie-cast{
+
+.movie-cast {
     margin-top: 2rem;
 }
-.cast-container{
+
+.cast-container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 2rem;
     margin-top: 1rem;
 }
-.actors{
+
+.actors {
     padding: 1rem;
 }
-.actors img{
+
+.actors img {
     width: 100%;
 }
-.actors p{
+
+.actors p {
     text-align: center;
     font-size: 1rem;
 }
-.watch{
+
+.watch {
     position: absolute;
     top: 50%;
     right: 0;
-    
+
 }
-.watch a{
+
+.watch a {
     background-color: darkslategray;
     color: white;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width:501px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 4rem;
+        grid-row-gap: 5rem;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 799px) {
+    
+    .sub-title small{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (min-width: 1199px) {
+    .card-title {
+        font-size: 2em;
+    }
+    .logo img {
+        width: 10rem;
+    }
+    
+    .title {
+        display: block;
+        font-size: 3rem;
+        letter-spacing: 1.5rem;
+    }
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 4rem;
+        grid-row-gap: 5rem;
+    }
+    .logo {
+        position: absolute;
+        left: 3rem;
+        top: 2rem;
+        font-size: 2rem;
+    }
+    
 }
