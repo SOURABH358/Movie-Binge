@@ -17,7 +17,7 @@ It is a movies recommendation app. Where you can get info about different latest
 </p>
 
 <p align = "center">
-  <img src = "./image/image-4.jpg">
+  <img src = "./image/image-2.jpg">
 </p>  
 
  
